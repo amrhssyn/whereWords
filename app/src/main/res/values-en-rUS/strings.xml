@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">where words</string>
+    <string name="dialogFragment_hint_close">close</string>
+    <string name="fragment_record_date">date</string>
+    <string name="fragment_record_time">hour</string>
+    <string name="fragment_record_score">score</string>
+    <string name="fragment_record_count">count</string>
+    <string name="fragment_settings_spanCount">cells count</string>
+    <string name="fragment_settings_farsi">Persian</string>
+    <string name="fragment_settings_english">English</string>
+    <string name="fragment_settings_deleteRecords">clear records</string>
+    <string name="menu_hint_help">help</string>
+    <string name="menu_navigation_settings">settings</string>
+    <string name="menu_navigation_records">records</string>
+    <string name="menu_navigation_solitaire">solitaire</string>
+    <string name="fragment_records_title">records</string>
+    <string name="fragment_settings_title">settings</string>
+    <string name="solitaire_fragment_title">solitaire</string>
+    <string name="fragment_solitaire_currentScore">current score : %s</string>
+    <string name="fragment_solitaire_highestScore">" highest score : %s"</string>
+    <string name="fragment_solitaire_correctWordStatus">"currect ... find next 😉 "</string>
+    <string name="fragment_solitaire_repetitiousWordStatus">is repetitious 😒</string>
+    <string name="fragment_solitaire_wrongWordStatus">wrong ... try again 🤪</string>
+    <string name="fragment_solitaire_hintUsageError">you dont have perimission to use help</string>
+    <string name="fragment_solitaire_hintDialogTile">rules</string>
+    <string name="fragment_solitaire_hintDialogYes">lets go</string>
+    <string name="fragment_solitaire_hintDialogNo">oh no</string>
+    <string name="fragment_solitaire_hintDialogMessage">for each %s seconds You will lose one point</string>
+
+</resources>

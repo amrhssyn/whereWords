@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+
+>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/global_default_sides_view_margin"
+    >
+
+        <TextView
+                android:id="@+id/countDownTextView"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                tools:text="2"
+                style="@style/TextAppearance.WhereWords.PrimaryButton"
+                android:background="@drawable/bg_tv_hint_counter"
+                android:layout_marginBottom="@dimen/global_default_sides_view_margin"
+
+        />
+
+        <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/listRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="360dp"
+                android:layout_marginTop="@dimen/global_default_sides_view_margin"
+                android:orientation="vertical"
+                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                app:spanCount="2"
+
+        />
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end|center_vertical"
+            android:orientation="horizontal"
+            android:background="@drawable/bg_item_letter_deactive"
+            android:layout_margin="@dimen/global_default_view_margin"
+
+    >
+
+        <Button
+                android:id="@android:id/closeButton"
+                style="@style/Widget.WhereWords.PrimaryButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dialogFragment_hint_close"
+
+        />
+    </LinearLayout>
+</LinearLayout>

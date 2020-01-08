@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:orientation="vertical"
+        app:cardElevation="2dp"
+        app:cardCornerRadius="2dp"
+        android:layout_marginTop="@dimen/global_default_view_margin"
+        android:layout_marginBottom="@dimen/global_default_view_margin"
+        android:layout_marginRight="@dimen/global_default_view_margin"
+        android:layout_marginLeft="@dimen/global_default_view_margin"
+>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            android:background="@drawable/bg_item_letter_deactive"
+    >
+
+        <TextView
+                android:id="@+id/recordDateTextView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                tools:text="2012/12/2"
+                android:textSize="12sp"
+                style="@style/TextAppearance.WhereWords.simpleWhiteText"
+        />
+
+        <TextView
+                android:id="@+id/recordTimeTextView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                tools:text="12:33"
+                style="@style/TextAppearance.WhereWords.simpleWhiteText"
+        />
+
+        <TextView
+                android:id="@+id/recordScoreTextView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                tools:text="15"
+                android:textSize="23sp"
+                android:fontFamily="@font/ism_bold"
+                android:textStyle="bold"
+                style="@style/TextAppearance.WhereWords.simpleWhiteText"
+
+        />
+
+        <TextView
+                android:id="@+id/recordCountTextView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                tools:text="1"
+                style="@style/TextAppearance.WhereWords.simpleWhiteText"
+        />
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

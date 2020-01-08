@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/navigation_graph" app:startDestination="@+id/solitaireFragment">
+
+
+    <fragment android:id="@+id/settingsFragment"
+              android:name="me.amrhssyn.wherewords.settings.SettingsFragment"
+              android:label="fragment_settings"
+              tools:layout="@layout/fragment_settings"/>
+
+    <fragment android:id="@+id/recordsFragment"
+              android:name="me.amrhssyn.wherewords.record.RecordsFragment"
+              android:label="fragment_records"
+              tools:layout="@layout/fragment_records"/>
+
+    <fragment android:id="@+id/solitaireFragment"
+              android:name="me.amrhssyn.wherewords.solitaire.SolitaireFragment"
+              android:label="fragment_solitaire"
+              tools:layout="@layout/fragment_solitaire"/>
+
+
+</navigation>

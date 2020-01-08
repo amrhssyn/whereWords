@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_found_word_container"
+        android:paddingLeft="@dimen/global_default_sides_view_margin"
+        android:paddingRight="@dimen/global_default_sides_view_margin"
+        android:layout_marginTop="@dimen/global_default_view_margin"
+        android:layout_marginBottom="@dimen/global_default_view_margin"
+        android:layout_marginLeft="@dimen/global_default_sides_view_margin"
+        android:layout_marginRight="@dimen/global_default_sides_view_margin"
+        android:layout_gravity="center"
+>
+
+    <TextView
+            android:id="@+id/foundWordTextview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:gravity="center"
+            tools:text="بامیلو"
+    />
+
+
+</LinearLayout>
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="langContainer_settingsFragment">56dp</dimen>
+    <dimen name="deleteContainer_settingsFragment">56dp</dimen>
+    <dimen name="summeryContainer_solitaireFragment">56dp</dimen>
+    <dimen name="cellMargin_letterItem">2dp</dimen>
+</resources>

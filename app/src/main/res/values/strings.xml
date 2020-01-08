@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">کلمه ها کجان</string>
+    <string name="dialogFragment_hint_close">بستن</string>
+    <string name="fragment_record_date">تاریخ</string>
+    <string name="fragment_record_time">ساعت</string>
+    <string name="fragment_record_score">امتیاز</string>
+    <string name="fragment_record_count">تعداد</string>
+    <string name="fragment_settings_spanCount">تعداد خانه های بازی</string>
+    <string name="fragment_settings_farsi">فارسی</string>
+    <string name="fragment_settings_english">ENGLISH</string>
+    <string name="fragment_settings_deleteRecords">پاک کردن رکورد ها</string>
+    <string name="menu_hint_help">راهنما</string>
+    <string name="menu_navigation_settings">تنظیمات</string>
+    <string name="menu_navigation_records">رکورد ها</string>
+    <string name="menu_navigation_solitaire">بازی یک نفره</string>
+    <string name="fragment_records_title">رکوردها</string>
+    <string name="fragment_settings_title">تنظیمات</string>
+    <string name="solitaire_fragment_title">بازی یک نفره</string>
+
+
+    <string name="fragment_solitaire_currentScore">امتیاز فعلی : %s</string>
+    <string name="fragment_solitaire_highestScore">بالاترین امتیاز : %s</string>
+    <string name="fragment_solitaire_correctWordStatus">درسته ... بعدی رو پیدا کن 😉</string>
+    <string name="fragment_solitaire_repetitiousWordStatus">تکراریه 😒</string>
+    <string name="fragment_solitaire_wrongWordStatus">نشد ... دوباره امتحان کن 🤪</string>
+    <string name="fragment_solitaire_hintUsageError">شما مجاز به استفاده از راهنما نیستید</string>
+    <string name="fragment_solitaire_hintDialogTile">شرایط استفاده</string>
+    <string name="fragment_solitaire_hintDialogYes">بزن بریم</string>
+    <string name="fragment_solitaire_hintDialogNo">اوه اوه نه</string>
+    <string name="fragment_solitaire_hintDialogMessage">با استفاده از راهنما در ازای هر %s ثانیه استفاده یک امتیاز از
+        شما کم میشود
+    </string>
+
+</resources>

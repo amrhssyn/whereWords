@@ -1,0 +1,86 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/secondaryColor</item>
+        <item name="toolbarStyle">@style/Widget.Toolbar</item>
+        <item name="android:textViewStyle">@style/Widget.WhereWords.TextView</item>
+
+    </style>
+
+
+    <style name="Widget.WhereWords.TextView" parent="Widget.AppCompat.TextView">
+        <item name="android:textAppearance">@style/TextAppearance.WhereWords.Body</item>
+    </style>
+
+
+    <style name="Widget.WhereWords.PrimaryButton" parent="Widget.AppCompat.TextView">
+        <item name="android:textAppearance">@style/TextAppearance.WhereWords.PrimaryButton</item>
+        <item name="android:background">@drawable/bg_item_letter_deactive</item>
+    </style>
+
+
+    <style name="Widget.WhereWords.hintWordItem" parent="Widget.AppCompat.TextView">
+        <item name="android:background">@drawable/bg_found_word_container</item>
+        <item name="android:paddingRight">45dp</item>
+        <item name="android:paddingLeft">45dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginTop">@dimen/global_default_view_margin</item>
+        <item name="android:layout_marginBottom">@dimen/global_default_view_margin</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/hintWordItemTextColor</item>
+    </style>
+
+    <style name="TextAppearance.WhereWords.PrimaryButton" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/primaryButtonTextColor</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">@font/ism_bold</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TextAppearance.WhereWords.Body" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textColor">@color/defaultTextColor</item>
+    </style>
+
+
+    <!--start of app title style-->
+    <style name="Widget.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="titleTextAppearance">@style/TextAppearance.WhereWords.ToolbarTitle</item>
+        <item name="android:background">@color/toolbarColor</item>
+    </style>
+
+
+    <style name="TextAppearance.WhereWords.ToolbarTitle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:fontFamily">@font/ism_bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/toolbarTitleTextColor</item>
+    </style>
+
+    <style name="TextAppearance.WhereWords.bigWhiteText" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:fontFamily">@font/ism_bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/bigWhiteTextColor</item>
+    </style>
+
+    <style name="TextAppearance.WhereWords.simpleWhiteText"
+           parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:fontFamily">@font/ism_light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/simpleWhiteTextColor</item>
+    </style>
+
+    <style name="TextAppearance.WhereWords.settingsText" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:fontFamily">@font/ism_light</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">@color/settingsTextColor</item>
+    </style>
+    <!-- end of app title style-->
+
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/global_default_view_margin"
+            android:layout_marginBottom="@dimen/global_default_view_margin"
+            android:layout_marginRight="@dimen/global_default_view_margin"
+            android:layout_marginLeft="@dimen/global_default_view_margin"
+    >
+
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginTop="@dimen/global_default_view_margin"
+
+        >
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fragment_settings_spanCount"
+                    android:layout_alignParentStart="true"
+                    style="@style/TextAppearance.WhereWords.settingsText"
+
+            />
+            <Spinner
+                    android:id="@+id/spanCountSpinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+            />
+
+        </RelativeLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/langContainer_settingsFragment"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="@dimen/global_default_view_margin"
+                android:layout_marginBottom="@dimen/global_default_view_margin"
+                android:layoutDirection="rtl"
+
+        >
+
+            <Button
+                    android:id="@+id/langFarsiButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/langContainer_settingsFragment"
+                    android:text="@string/fragment_settings_farsi"
+                    android:background="@drawable/bg_btn_fa_lang_deactive"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+            />
+
+            <Button
+                    android:id="@+id/langEnglishButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/langContainer_settingsFragment"
+                    android:text="@string/fragment_settings_english"
+                    android:background="@drawable/bg_btn_en_lang_deactive"
+                    android:textColor="@android:color/white"
+
+            />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/deleteContainer_settingsFragment"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="@dimen/global_default_view_margin"
+        >
+
+            <Button
+                    android:id="@+id/deleteRecordsButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/deleteContainer_settingsFragment"
+                    android:text="@string/fragment_settings_deleteRecords"
+                    android:background="@drawable/bg_item_letter_active"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:paddingRight="@dimen/global_default_sides_view_margin"
+                    android:paddingLeft="@dimen/global_default_sides_view_margin"
+            />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</layout>

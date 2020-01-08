@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_margin="@dimen/cellMargin_letterItem"
+              android:id="@+id/containerLinearLayout"
+              android:layout_gravity="center"
+              android:background="@drawable/bg_item_letter_deactive">
+
+    <TextView
+            android:id="@+id/letterTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            tools:text="b"
+            android:fontFamily="@font/ism_bold"
+            android:textSize="20sp"
+            android:clickable="true"
+            android:focusable="true"
+            android:textColor="@android:color/white"
+
+    />
+</LinearLayout>

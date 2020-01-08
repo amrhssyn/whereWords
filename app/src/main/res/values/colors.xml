@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primaryColor">#d60000</color>
+    <color name="primaryLightColor">#ff5131</color>
+    <color name="primaryDarkColor">#9c0000</color>
+    <color name="secondaryColor">#546e7a</color>
+    <color name="secondaryLightColor">#819ca9</color>
+    <color name="secondaryDarkColor">#29434e</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#ffffff</color>
+    <!-- https://www.materialpalette.com/colors naming system -->
+    <color name="gray900">#212121</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+
+
+    // color by feature
+    <color name="languageActive">@color/white</color>
+    <color name="languageDeactive">@color/black</color>
+    <color name="defaultTextColor">@color/gray900</color>
+    <color name="hintWordItemTextColor">@color/white</color>
+    <color name="primaryButtonTextColor">@color/white</color>
+    <color name="toolbarTitleTextColor">@color/white</color>
+    <color name="bigWhiteTextColor">@color/white</color>
+    <color name="simpleWhiteTextColor">@color/white</color>
+    <color name="settingsTextColor">@color/black</color>
+    <color name="toolbarColor">@color/secondaryColor</color>
+
+    <color name="bgItemLetterActiveStrokeColor">@color/secondaryColor</color>
+    <color name="bgItemLetterActiveSolidColor">@color/primaryColor</color>
+
+    <color name="bgItemLetterDeactiveStrokeColor">@color/primaryColor</color>
+    <color name="bgItemLetterDeactiveSolidColor">@color/secondaryColor</color>
+
+    <color name="bgSummeryContainerSolidColor">@color/secondaryColor</color>
+    <color name="bgSummeryContainerStrokeColor">@color/primaryColor</color>
+
+    <color name="bgTvHintCounterSolidColor">@color/secondaryColor</color>
+    <color name="bgTvHintCounterStrokeColor">@color/primaryColor</color>
+
+    <color name="bgBtnEnLangActiveSolidColor">@color/primaryColor</color>
+    <color name="bgBtnEnLangActiveStrokeColor">@color/primaryColor</color>
+
+    <color name="bgBtnEnLangDeactiveSolidColor">@color/white</color>
+    <color name="bgBtnEnLangDeactiveStrokeColor">@color/primaryColor</color>
+
+    <color name="bgBtnFaLangActiveSolidColor">@color/primaryColor</color>
+    <color name="bgBtnFaLangActiveStrokeColor">@color/primaryColor</color>
+
+    <color name="bgBtnFaLangDeactiveSolidColor">@color/white</color>
+    <color name="bgBtnFaLangDeactiveStrokeColor">@color/primaryColor</color>
+
+    <color name="bgFoundWordContainerColor">@color/primaryColor</color>
+
+    <color name="solitaireFragmentDividerColor">@color/primaryColor</color>
+</resources>
